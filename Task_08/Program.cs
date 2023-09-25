@@ -5,16 +5,17 @@
 Console.WriteLine("Введите число:");
 int sizeNum = Convert.ToInt32(Console.ReadLine());
 int count = 0;
-
+int[] numbers = {0, sizeNum - 1};
 while (count < sizeNum);
 {
     if (count % 2 == 0)
     {
-        Console.Write(count);
+        numbers = + count;
+        count = count + 1;
     }
     else
     {
         count = count + 1;
     }
 }
-Console.WriteLine(count);
+Console.WriteLine(numbers);

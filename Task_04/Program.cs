@@ -16,27 +16,9 @@ Console.WriteLine("Введите третье число:");
 int thrdNum = Convert.ToInt32(Console.ReadLine());
 
 //Назначаем первое значение максимальным и сравниваем через ветки.
-int maxNum = 0;
-int size = 3;
-int count = 1;
-
-while (size > count);
-{
-    if (frstNum > secNum);
-        {
-            maxNum = frstNum;
-            count = count + 1;
-        }
-    if else (secNum > frstNum);
-        {
-        maxNum = secNum;
-        count = count + 1;
-        }
-    if (thrdNum > maxNum);
-        {
-            maxNum = thrdNum;
-            count = count + 1;
-        }
-}
+int maxNum = frstNum;
+if (frstNum > maxNum) maxNum = frstNum;
+if (secNum > maxNum) maxNum = secNum;
+if (thrdNum > maxNum) maxNum = thrdNum;
 Console.Write("Максимальное число:");
 Console.WriteLine(maxNum);
