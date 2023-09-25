@@ -17,20 +17,26 @@ int thrdNum = Convert.ToInt32(Console.ReadLine());
 
 //Назначаем первое значение максимальным и сравниваем через ветки.
 int maxNum = 0;
-if (secNum > frstNum)
+int size = 3;
+int count = 1;
+
+while (size > count);
 {
-    int maxNum = secNum;
+    if (frstNum > secNum);
+        {
+            maxNum = frstNum;
+            count = count + 1;
+        }
+    if else (secNum > frstNum);
+        {
+        maxNum = secNum;
+        count = count + 1;
+        }
+    if (thrdNum > maxNum);
+        {
+            maxNum = thrdNum;
+            count = count + 1;
+        }
 }
-else
-{
-    int maxNum = frstNum;
-}
-if (thrdNum > maxNum)
-{
-    int maxNum = thrdNum;
-}
-else
-{
-    Console.Write("Максимальное число:");
-    Console.WriteLine(maxNum);    
-}
+Console.Write("Максимальное число:");
+Console.WriteLine(maxNum);
