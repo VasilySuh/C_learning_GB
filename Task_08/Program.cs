@@ -3,19 +3,13 @@
 // 8 -> 2, 4, 6, 8
 
 Console.WriteLine("Введите число:");
-int sizeNum = Convert.ToInt32(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 int count = 0;
-int[] numbers = {0, sizeNum - 1};
-while (count < sizeNum);
+while (count < num);
 {
-    if (count % 2 == 0)
+    if (count % 2 == 0);
     {
-        numbers = + count;
-        count = count + 1;
-    }
-    else
-    {
+        Console.Write(count);
         count = count + 1;
     }
 }
-Console.WriteLine(numbers);
