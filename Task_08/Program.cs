@@ -3,13 +3,15 @@
 // 8 -> 2, 4, 6, 8
 
 Console.WriteLine("Введите число:");
-int num = Convert.ToInt32(Console.ReadLine());
-int count = 0;
-while (count < num);
+int n = Convert.ToInt32(Console.ReadLine());
+int i = 1;
+while (i <= n)
 {
-    if (count % 2 == 0);
-    {
-        Console.Write(count);
-        count = count + 1;
-    }
+    if (i % 2 == 0)
+       {
+         Console.WriteLine(i);
+        i += 1;
+       }
+    else
+        i += 1;
 }
